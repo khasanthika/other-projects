@@ -206,12 +206,11 @@
   <!-- Header (Same top bar) -->
   <header>
     <div>
-      <h1>Your Name</h1>
       <nav>
         <ul>
           <li class="active-tab">Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li id="tab-meduim" onclick="showTab('Medium Articles')">Medium Articles</li>
+          <li id="tab-projects" onclick="showTab('Other Projects')">Other Projects</li>
         </ul>
       </nav>
     </div>
@@ -226,24 +225,20 @@
         />
       </div>
       <div class="social-links">
-        <a href="https://github.com/yourusername" target="_blank"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/yourusername" target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <a href="https://scholar.google.com/citations?user=yourid" target="_blank"
-          ><i class="fas fa-graduation-cap"></i
-        ></a>
+       <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:kalanihasanthika@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://scholar.google.com/citations?user=yourid" target="_blank"><i class="fas fa-graduation-cap"></i></a>
       </div>
     </div>
   </header>
 
   <!-- Main Two-Column Layout -->
   <div class="main-content">
-    <!-- Tech Column -->
+    <!-- Medium Articles -->
     <div class="column">
-      <h2>Tech</h2>
+      <h2>Medium Articles</h2>
       <!-- Image right after section title -->
       <img
         src="images/tech.jpg"
@@ -285,9 +280,9 @@
       <a href="#" class="more-link">More Tech</a>
     </div>
 
-    <!-- Entertainment Column -->
+    <!-- Other Projects -->
     <div class="column">
-      <h2>Entertainment</h2>
+      <h2>Other Projects</h2>
       <!-- Image right after section title -->
       <img
         src="images/entertainment.jpg"
@@ -331,24 +326,9 @@
   </div>
 
   <!-- Footer -->
-  <footer>
+ <footer>
     <p>&copy; 2025 Your Name. All rights reserved.</p>
-    <div class="social-icons">
-      <a href="https://github.com/yourusername" target="_blank"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a href="https://www.linkedin.com/in/yourusername" target="_blank"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <a href="mailto:your.email@example.com" target="_blank"
-        ><i class="fas fa-envelope"></i
-      ></a>
-      <a href="https://twitter.com/yourusername" target="_blank"
-        ><i class="fab fa-twitter"></i
-      ></a>
-    </div>
   </footer>
-
   <script>
     // Toggles the search input visibility
     function toggleSearch() {
